@@ -1,16 +1,13 @@
 #include <main.h>
 /**
- * main - entry point
- * Description: 'prints alphabets'
- * Return: 0 always success
+ * print_alphabet - make alphabet
+ * Description: 'print alphabet'
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
-	for ( n = 97; n <= 122; n++)
-	{
-		putchar(n);
-	}
+	char ch;
+	for ( ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
 	putchar('\n');
-
-	return (0);
 }
