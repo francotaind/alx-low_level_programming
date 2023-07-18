@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * print_alphabet - make alphabet
  * Description: 'print alphabet'
@@ -8,6 +8,8 @@ void print_alphabet(void)
 {
 	char ch;
 	for ( ch = 'a'; ch <= 'z'; ch++)
+	{
 		_putchar(ch);
-	putchar('\n');
+	}
+	_putchar('\n');
 }
