@@ -1,8 +1,7 @@
 #include "main.h"
-/*
-* void positive_or_negative(int i)
-* Description: test for positve or negative
-* Return: 0 always success
+/**
+* main 
+* Description: 'test whether a number is positive or negative'
 */
 void positive_or_negative(int i)
 {
