@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
+int mul(int a, int b);
 int _isupper(int c);
 int _isdigit(int c);
 void positive_or_negative(int i);
