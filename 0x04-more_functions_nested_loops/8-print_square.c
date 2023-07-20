@@ -2,11 +2,13 @@
 /*
 *print_square - print a square
 *Return: always 0 success
+*@size: size of the square
 *Description: prints a square on the terminal
 */
 void print_square(int size)
 {
 	int x, y;
+
 	if (size <= 0)
 	{
 	putchar('\n');
