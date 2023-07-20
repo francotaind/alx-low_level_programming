@@ -3,6 +3,7 @@
 *print_diagonal - print a diagonal line on the screen
 *Description: print diagonalline on terminal
 *Return: always 0
+*@n: first n
 */
 void print_diagonal(int n)
 {
