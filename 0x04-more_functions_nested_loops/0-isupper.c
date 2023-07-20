@@ -1,13 +1,13 @@
 #include <main.h>
 /**
-* int _isupper(int c)
+*int _isupper(int c)
 *Return: 0 
 */
 int _isupper(int c)
 {
 	int c;
 
-	if ((c <= 122) && (c >= 97))
+	if (c >= 65 && c >= 90)
 	{
 		return (0);
 	}
@@ -15,4 +15,4 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-} 
+}
