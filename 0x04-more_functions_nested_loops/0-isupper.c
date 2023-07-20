@@ -4,13 +4,12 @@
 *int _isupper(int c) - checks if a character is lower or uppercase
 *Description: ' checks if upper or lower case'
 *Return: 0
-*@c: integer
+*@x: integer
 */
-int _isupper(int c)
+int _isupper(int x)
 {
-	int c;
 
-	if (c >= 65 && c >= 90)
+	if (x >= 65 && x >= 90)
 	{
 		return (0);
 	}
