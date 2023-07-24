@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
 *swap_int - waps values of two integers
-*@n: integer
+*@b: integer to swap
+*@a: integer to swap
 *Return: 0 always
 */
 void swap_int(int *a, int *b)
