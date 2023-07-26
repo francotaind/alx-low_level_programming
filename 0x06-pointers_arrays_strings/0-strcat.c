@@ -3,7 +3,7 @@
 *_strcat - concanates two strings
 *@dest: destination of the string
 *@src: source of the string
-*Return
+*Return: dest value of the string
 */
 char *_strcat(char *dest, char *src)
 {
