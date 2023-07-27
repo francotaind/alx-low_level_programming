@@ -2,11 +2,13 @@
 /**
 *reverse_array -  it reverses the contents of an array
 *@n: length of the array
+*@a: array to be revesed
 *Return: always 0
 */
 void reverse_array(int *a, int n)
 {
 	int start = 0;
+
 	int end = n - 1;
 
 	while (start < end)
@@ -16,4 +18,4 @@ void reverse_array(int *a, int n)
 	a[end] = temp;
 	start++, end--;
 	}
-}	
+}
