@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * create_array - create array of size
- * @str:array size
- * @c: char to assig
+ * @size:array size
+ * @c: char to assign
  * Description: creat array of size size and assign char
  * Return: pointer to array, NULL if fail
  **/
