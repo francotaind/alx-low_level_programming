@@ -1,0 +1,13 @@
+CC = gcc
+
+all: library_ library compile
+
+library_:
+	${CC} -c main.c -o main.o
+		
+	
+library: 
+	${CC} -c school.c -o school.o
+	
+compile:
+	${CC} main.o school.o -o school
