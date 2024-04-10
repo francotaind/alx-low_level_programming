@@ -1,0 +1,12 @@
+
+all: library_ library compile
+
+library_:
+	gcc -c main.c -o main.o
+		
+	
+library: 
+	gcc -c school.c -o school.o
+	
+compile:
+	gcc main.o school.o -o school
